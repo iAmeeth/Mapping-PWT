@@ -1,0 +1,412 @@
+P100050:
+  type: quantity
+  label:
+    en:
+    - Average annual hours worked
+  description:
+    en:
+    - Average annual hours worked by persons engaged
+  statements:
+    P31:                  # instance of
+    - value: Q1141362     # man-hour
+    P1896:                # source website for the property
+    - value: https://statisticaldatasets.data-planet.com/dataplanet/datasheet/Datasheet.jsp?viewID=RANKING%7COrg84%7C%7CTimeUnit0%7C%7C%7C2011%7C%7Cfalse&sid=18aba94b59a138%24124&param=7fuKsUAw6JIaGcWOIA3l-XM7UJ1SUCRGe-VRJBn4fdU_2q5PAFwJnjqhAMASuhAAenWhJ-hxlBY2GQpH-uxN85fxFK4T9V_FZ8qYH3ip7tdAdUOmZR2_dnuZObmzhBdX2HpfPtr-lpedZH0S4qtRHEtlB-hsC6LhhWkZJpmPlPuQwvpaw5z4_Fb47_LhlRFkGa4t5hNaHsKo7e5kMKHvwtU3_mJ1gfJ7z_GSnlHMQi3saw2g2tRvdvPvfPij2Ecq&customData=50%7C2%7Cfalse
+
+
+P100051:
+  type: quantity
+  label:
+    en:
+    - Human capital index
+
+  description:
+    en:
+    - Human capital index, based on years of schooling and returns to education.
+
+  statements:
+    P31:                  # instance of
+    - value: Q165687      # human capital
+
+   
+
+
+P100052:
+  type: quantity
+  label:
+    en:
+    - Real consumption of households and government
+
+  description:
+    en:
+    - Real consumption of households and government, at current PPPs (in mil. 2011US$)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    - value: Q192270      # consumption 
+  
+P100053:
+  type: quantity
+  label:
+    en:
+    - Real domestic absorption
+
+  description:
+    en:
+    - Real domestic absorption, (real consumption plus investment), at current PPPs (in mil. 2011US$)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    - value: Q192270      # consumption 
+    - value: Q4290        # investment
+
+  
+# GDP Related Properties
+
+P100054:
+  type: quantity
+  label:
+    en:
+    - Expenditure-side real GDP
+
+  description:
+    en:
+    - Expenditure-side real GDP at current PPPs (in mil. 2011US$)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    - value: Q760120      # expenditure
+    P1629:                # subject item of this property
+    - value: Q12638       # GDP
+  
+P100055:
+  type: quantity
+  label:
+    en:
+    -Output-side real GDP
+
+  description:
+    en:
+    - Output-side real GDP at current PPPs (in mil. 2011US$)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    P1629:                # subject item of this property
+    - value: Q12638       # GDP
+
+
+
+P100056:
+  type: quantity
+  label:
+    en:
+    - Capital stock
+
+  description:
+    en:
+    - Capital stock at current PPPs (in mil. 2011US$)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    - value: Q1196314      # stock 
+
+P100057:
+  type: quantity
+  label:
+    en:
+    - Capital services levels
+
+  description:
+    en:
+    - Capital services levels at current PPPs (USA=1)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    - value: Q5035774     # Capital Services
+
+
+P100058:
+  type: quantity
+  label:
+    en:
+    - TFP level
+
+  description:
+    en:
+    - TFP level at current PPPs (USA=1)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+    
+
+P100059:
+  type: quantity
+  label:
+    en:
+    - Welfare-relevant TFP levels
+
+  description:
+    en:
+    - Welfare-relevant TFP levels at current PPPs (USA=1)
+
+  statements:
+    P31:                  # instance of
+    - value: Q21451178    # Wikidata property related to economics
+
+
+# Price levels, expenditure categories and capital
+
+P100100:
+  type: quantity
+  label:
+    en:
+    - Price level of household consumption
+  
+  description:
+    en:
+    - Price level of household consumption,  price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+
+P100101:
+  type: quantity
+  label:
+    en:
+    - Price level of capital formation
+  
+  description:
+    en:
+    - Price level of capital formation,  price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+
+P100102:
+  type: quantity
+  label:
+    en:
+    - Price level of government consumption
+
+  description:
+    en:
+    -Price level of government consumption,  price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+
+P100103:
+  type: quantity
+  label:
+    en:
+    - Price level of exports
+
+  description:
+    en:
+    - Price level of exports, price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+
+
+P100104:
+  type: quantity
+  label:
+    en:
+    - Price level of imports
+  
+  description:
+    en:
+    - Price level of imports, price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+
+P100105:
+  type: quantity
+  label:
+    en:
+    - Price level of the capital stock
+
+  description:
+    en:
+    - Price level of the capital stock, price level of USA in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+    - value: Q1196314     # stock 
+
+P100106:
+  type: quantity
+  label:
+    en:
+    - Price level of the capital services
+
+  description:
+    en:
+    - Price level of the capital services, price level of USA=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+    - value: Q5035774     # Capital services 
+
+P100107:
+  type: quantity
+  label:
+    en:
+    - Price level of CCON (PPP/XR)
+
+  description:
+    en:
+    - Price level of CCON (PPP/XR), price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+    - value: P100052      # CCON 
+
+P100108:
+  type: quantity
+  label:
+    en:
+    - Price level of CDA (PPP/XR)
+
+  description:
+    en:
+    - Price level of CDA (PPP/XR), price level of USA GDPo in 2011=1
+  
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+    - value: P100053      # CDA
+
+P100109:
+  type: quantity
+  label:
+    en:
+    - Price level of CGDPo (PPP/XR)
+
+  description:
+    en:
+    - Price level of CGDPo (PPP/XR),  price level of USA GDPo in 2011=1
+
+  statements:
+    P31:                  # instance of
+    - value: Q1936341     # price level
+    - value: P100054      # CGDPo 
+
+# Shares in CGDP0
+
+P100090:
+  type: quantity
+  label:
+    en:
+    - Share of household consumption
+
+  description:
+    en:
+    - Share of household consumption at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+
+P100091:
+  type: quantity
+  label:
+    en:
+    - Share of gross capital formation
+
+  description:
+    en:
+    - Share of gross capital formation at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+    
+P100092:
+  type: quantity
+  label:
+    en:
+    - Share of government consumption
+
+  description:
+    en:
+    - Share of government consumption at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+
+P100093:
+  type: quantity
+  label:
+    en:
+    - Share of merchandise exports
+
+  description:
+    en:
+    - Share of merchandise exports at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+    
+P100094:
+  type: quantity
+  label:
+    en:
+    - Share of merchandise imports
+
+  description:
+    en:
+    - Share of merchandise imports at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+
+P1000905:
+  type: quantity
+  label:
+    en:
+    - Share of residual trade and GDP statistical discrepancy
+
+  description:
+    en:
+    - Share of residual trade and GDP statistical discrepancy at current PPPs
+
+  statements:
+    P31:                  # instance of
+    - value: Q11692       # share
+
+
+
+
+P100080:
+  type: quantity
+  label:
+    en:
+    - Average depreciation rate of the capital stock
+
+  description:
+    en:
+    - Average depreciation rate of the capital stock
+
+  statements:
+    P31:                  # instance of
+    - value: Q114403      # depreciation 
